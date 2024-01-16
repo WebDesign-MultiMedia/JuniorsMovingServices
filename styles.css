@@ -1,0 +1,181 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.819);
+        color: white;
+    }
+
+
+ /*NAVIGATION */
+    .nav {
+        position: fixed;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+
+    }
+    .nav-item a{
+position: relative;
+        left: 0;
+        margin-left: 12px;
+    }
+
+    .nav-item a:hover {
+
+        background-color: rgb(217, 144, 7);
+        color: white;
+
+    }
+  
+
+
+
+
+/* HEAER */
+
+    .Title{
+        position: relative;
+        text-align: center;
+    }
+.Title #t1{
+    color: orange;
+    font-size: 3.5em;
+    position: relative;
+    top: 1.7em;
+    z-index: 2;
+    padding-right: 3em;
+}
+
+.Title #t2{
+    color: blue;
+    font-size: 3.5em;
+    padding-left: 3em;
+    position: relative;
+    top: 1.5em;
+    z-index: 2;
+}
+.Title #t3{
+    position: relative;
+    top: 5em;
+    z-index: 2;
+    font-size: 4em;
+    color: white;
+}
+
+    .img img{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+        /* SERVICES */
+    .img-Services {
+        position: absolute ;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+        .Services{
+            position:relative;
+            text-align: center;
+            top: 35em;
+            padding-top: 40px;
+            color: red;
+        }
+
+        .Header1 h2{
+            font-size: 15vw;
+            color: orange;
+        }
+
+        .Services-list {
+            position: relative;
+            top: 6em;
+            font-size: 5vw;
+            color: white;
+
+
+
+        }
+
+        .Services-list div{
+            padding: 10px;
+              filter: drop-shadow(-4px 5px 3px black);
+              text-shadow: -9px 2px 4px black;
+
+        }
+
+        .Services span{
+            color: orange;
+        }
+
+
+
+    /* CONTACT */
+    .Contact{
+        position: relative;
+        text-align: center;
+        top: 55em;
+        bottom: 200px;
+        margin-top: 20em;
+    }
+
+    .Header3, .Contact-list{
+        position: relative;
+        top: 20em;
+    }
+
+
+    /* QUOTE/CONTACTME */
+    .Quote{
+        position:relative;
+        text-align: center;
+        top: 120em;
+        padding-top: 40px;
+        color: red;
+    }
+
+    #question-section{
+        height: 200px;
+        width: 20em;
+    }
+
+    label{
+        position: absolute;
+        color: red;
+        display: none;
+    }
+
+    #email{
+        color: red;
+    }
+
+    
+
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
